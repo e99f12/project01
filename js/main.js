@@ -2,7 +2,7 @@ $(function () {
 
     //var --> const , let
     const option = {
-        anchors: ['01', '02', '03'],
+        anchors: ['01', '02', '03', '04', '05'],
         afterRender: function () {
             $('.section').eq(0).addClass('on');
         },
@@ -17,7 +17,7 @@ $(function () {
     }
     $('.main_full').fullpage(option);
 
-    //$('.section').eq(0).addClass('on');
+    $('.section').eq(0).addClass('on');
 
 
 
