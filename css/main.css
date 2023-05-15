@@ -124,6 +124,7 @@ nav li.on a::after {
 }
 
 footer {
+    text-align: center;
     position: fixed;
     bottom: 50px;
     right: 50px;
